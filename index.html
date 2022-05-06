@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width"> <!--Sets rendered window to device width-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css">
         <link href="styles.css" rel="stylesheet" type="text/css">
         <title>Samuel Yoo | Software Engineer</title>
     </head>
@@ -16,7 +16,7 @@
             </div>
             <nav class="header-center">
                 <a href="#contact">Contact</a>
-                <a href="https://github.com/samueyoo" target="_blank">GitHub</a>
+                <a href="https://github.com/samueyoo" target="_blank">GitHub</a> <!--External links set to open in a new tab-->
                 <a href="https://www.linkedin.com/in/samuel-yoo-5ab758141/" target="_blank">LinkedIn</a>
             </nav>
             
@@ -24,41 +24,48 @@
 
         <main>
             <article>
-                <div class="image-div center-image">
-                    <img src="images/portrait.jpg" alt="A picture of Sam" width="200px">
+                <div class="image-div center-image"> <!--Tagged to resize properly and center-->
+                    <img src="images/portrait.jpg" alt="A picture of Sam" class="image-format">
                 </div>
-                <section class="center-text">
-                    <h3>Hi, my name is Sam!</h3>
+                <h2 class="hi">Hi, my name is Sam!</h2>
+                <div class="center-text"> <!--Intro text-->
                     <p>I'm an aspiring full-stack software engineer based in Chicago, Illinois.</p>
                     <p>For business inquiries, feel free to reach me <a href="#contact">here.</a></p>
-                </section>
+                </div>
                 <hr>
-                <section class="center-longtext">
+                <section class="center-longtext"> <!--About Me text-->
                     <h3>About Me</h3>
                     <p>A large part of my interest in software development comes from my experience as a researcher collaborating with the numerous roles required for a successful study.</p>
                     <p>Working with data as a research coordinator from fields such as the neuroscience of language to chronic illness and clinical psychiatry, I'm passionate about how software development can break barriers to potentially life-saving discoveries!</p>
-                    <p>Part of that passion means I believe in:</p>
-                    <ul>
-                        <li>Creating easily digestable and future-proofed code</li>
-                        <li>Producing clear, concise, and communicable datasets</li>
-                        <li>The principle that quality works starts with quality collaboration</li>
-                    </ul>
+                    <p>Part of that passion means I believe and follow in three main principles:</p>
+                    <ol> <!--Ordered list of 3 principles-->
+                        <li>Creating easily digestable and future-proofed code.</li>
+                        <li>Producing clear, concise, and communicable datasets.</li>
+                        <li>That quality works starts with quality collaborations.</li>
+                    </ol>
+                    <p>When I'm not working, you can find me collectible hunting or writing!</p>
                 </section>
                 <hr>
-                <section class="center-longtext">
+                <section class="center-longtext"> <!--More about me text-->
                     <h3>My Journey</h3>
-                    <p>After receiving my B.A. in psychology and biology, I worked for a variety of research institutes: local labs, university research centers, and state-of-the-art research hostpitals.</p>
+                    <p>After receiving my B.A. in psychology and biology, I worked for a variety of research institutes:</p>
+                    <ul> <!--Unordered list for places I've worked in-->
+                        <li>various labs</li>
+                        <li>university research centers</li>
+                        <li>state-of-the-art research hostpitals</li>
+                    </ul>
                     <p>It was through my work as a research coordinator I came to see the power of modernizing research practices through coding.</p>
                     <p>I'm excited to pursue this new endeavor through Thinkful's software engineering bootcamp and continue working with the teams I was once part of!</p>
                 </section>
             </article>
         </main>
 
-        <footer>
+        <footer> <!--All contact info is in the footer; linked to "contact" id used in intro and nav-->
+            <!--Email set as a link that automatically opens up a new compose email-->
             <p id="contact">(XXX) XXX-XXXX | <a href="mailto:samueyoo@gmail.com">samueyoo@gmail.com</a> | XXXX Cowabunga Drive, Chicago, IL XXXXX</p>
             <p>© Samuel Yoo</p>
         </footer>
-
+        <!--No real JavaScript for assessment, but still included for good practice. Don't be scared of what you may find!-->
         <script src="script.js"></script>
     </body>
 

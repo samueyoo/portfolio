@@ -1,5 +1,5 @@
 
-
+/*======General Font Changes/Container Formatting with normal selectors======*/
 p li {
     font-family: Georgia, Arial, sans-serif;
 }
@@ -46,6 +46,12 @@ footer {
     font-family: Arial, sans-serif;
 }
 
+hr {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/*===Pseudo-class text color changes===*/
 a:link {
     font-family: Arial, sans-serif;
     color: #ffffff;
@@ -63,22 +69,14 @@ a:active {
     color: #FF0000;
 }
 
-hr {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
 /*==========CLASSES==========*/
+/*==Created a dedicated class for formatting images for future-proofing==*/
 .image-format {
-    width: 50;
+    width: 200px;
 }
 
 .image-div {
     margin-top: 1%;
-}
-
-.float-left {
-    float: left;
 }
 
 .center-image {
@@ -90,7 +88,14 @@ hr {
     margin-left: 28%;
     margin-right: 25%;
 }
+/*==Used to align longer text containers==*/
 .center-longtext {
     margin-left: 28%;
     margin-right: 25%;
+}
+
+.hi {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
 }
